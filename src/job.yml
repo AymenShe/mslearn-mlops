@@ -1,4 +1,3 @@
-yml inputs: training_data: type: uri_file path: azureml:diabetes-data@latest $schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
 code: .
 command: >-
   python train-model-parameters.py
